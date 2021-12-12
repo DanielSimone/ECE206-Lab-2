@@ -1,0 +1,443 @@
+$date
+	Wed Sep 29 23:21:41 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Adder8Test $end
+$var wire 8 ! sp [7:0] $end
+$var wire 8 " sh [7:0] $end
+$var wire 1 # cop $end
+$var wire 1 $ coh $end
+$var reg 8 % ah [7:0] $end
+$var reg 8 & ap [7:0] $end
+$var reg 8 ' bh [7:0] $end
+$var reg 8 ( bp [7:0] $end
+$var reg 1 ) cih $end
+$var reg 1 * cip $end
+$var reg 8 + h_errors [7:0] $end
+$var reg 8 , p_errors [7:0] $end
+$scope module adderh $end
+$var wire 8 - a [7:0] $end
+$var wire 8 . b [7:0] $end
+$var wire 1 ) ci $end
+$var wire 8 / s [7:0] $end
+$var wire 1 $ co $end
+$var wire 1 0 ci7 $end
+$var wire 1 1 ci6 $end
+$var wire 1 2 ci5 $end
+$var wire 1 3 ci4 $end
+$var wire 1 4 ci3 $end
+$var wire 1 5 ci2 $end
+$var wire 1 6 ci1 $end
+$scope module fulladder1 $end
+$var wire 1 7 a $end
+$var wire 1 8 and1 $end
+$var wire 1 9 and2 $end
+$var wire 1 : and3 $end
+$var wire 1 ; b $end
+$var wire 1 ) ci $end
+$var wire 1 6 co $end
+$var wire 1 < or1 $end
+$var wire 1 = s $end
+$var wire 1 > xor1 $end
+$upscope $end
+$scope module fulladder2 $end
+$var wire 1 ? a $end
+$var wire 1 @ and1 $end
+$var wire 1 A and2 $end
+$var wire 1 B and3 $end
+$var wire 1 C b $end
+$var wire 1 6 ci $end
+$var wire 1 5 co $end
+$var wire 1 D or1 $end
+$var wire 1 E s $end
+$var wire 1 F xor1 $end
+$upscope $end
+$scope module fulladder3 $end
+$var wire 1 G a $end
+$var wire 1 H and1 $end
+$var wire 1 I and2 $end
+$var wire 1 J and3 $end
+$var wire 1 K b $end
+$var wire 1 5 ci $end
+$var wire 1 4 co $end
+$var wire 1 L or1 $end
+$var wire 1 M s $end
+$var wire 1 N xor1 $end
+$upscope $end
+$scope module fulladder4 $end
+$var wire 1 O a $end
+$var wire 1 P and1 $end
+$var wire 1 Q and2 $end
+$var wire 1 R and3 $end
+$var wire 1 S b $end
+$var wire 1 4 ci $end
+$var wire 1 3 co $end
+$var wire 1 T or1 $end
+$var wire 1 U s $end
+$var wire 1 V xor1 $end
+$upscope $end
+$scope module fulladder5 $end
+$var wire 1 W a $end
+$var wire 1 X and1 $end
+$var wire 1 Y and2 $end
+$var wire 1 Z and3 $end
+$var wire 1 [ b $end
+$var wire 1 3 ci $end
+$var wire 1 2 co $end
+$var wire 1 \ or1 $end
+$var wire 1 ] s $end
+$var wire 1 ^ xor1 $end
+$upscope $end
+$scope module fulladder6 $end
+$var wire 1 _ a $end
+$var wire 1 ` and1 $end
+$var wire 1 a and2 $end
+$var wire 1 b and3 $end
+$var wire 1 c b $end
+$var wire 1 2 ci $end
+$var wire 1 1 co $end
+$var wire 1 d or1 $end
+$var wire 1 e s $end
+$var wire 1 f xor1 $end
+$upscope $end
+$scope module fulladder7 $end
+$var wire 1 g a $end
+$var wire 1 h and1 $end
+$var wire 1 i and2 $end
+$var wire 1 j and3 $end
+$var wire 1 k b $end
+$var wire 1 1 ci $end
+$var wire 1 0 co $end
+$var wire 1 l or1 $end
+$var wire 1 m s $end
+$var wire 1 n xor1 $end
+$upscope $end
+$scope module fulladder8 $end
+$var wire 1 o a $end
+$var wire 1 p and1 $end
+$var wire 1 q and2 $end
+$var wire 1 r and3 $end
+$var wire 1 s b $end
+$var wire 1 0 ci $end
+$var wire 1 $ co $end
+$var wire 1 t or1 $end
+$var wire 1 u s $end
+$var wire 1 v xor1 $end
+$upscope $end
+$upscope $end
+$scope module adderp $end
+$var wire 8 w a [7:0] $end
+$var wire 8 x b [7:0] $end
+$var wire 1 * ci $end
+$var reg 1 # co $end
+$var reg 8 y s [7:0] $end
+$var reg 9 z sum [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11010 z
+b11010 y
+b1111 x
+b1010 w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+1^
+1]
+0\
+0[
+0Z
+0Y
+0X
+0W
+1V
+1U
+1T
+1S
+1R
+1Q
+1P
+1O
+0N
+0M
+1L
+1K
+0J
+1I
+0H
+0G
+1F
+1E
+1D
+1C
+1B
+1A
+1@
+1?
+0>
+0=
+1<
+1;
+0:
+19
+08
+07
+16
+15
+14
+13
+02
+01
+00
+b11010 /
+b1111 .
+b1010 -
+b0 ,
+b0 +
+1*
+1)
+b1111 (
+b1111 '
+b1010 &
+b1010 %
+0$
+0#
+b11010 "
+b11010 !
+$end
+#5
+0U
+0V
+0]
+0^
+0E
+0F
+04
+0L
+05
+0D
+03
+0T
+06
+0<
+0M
+0N
+0A
+0I
+0Q
+0@
+0B
+0P
+0R
+09
+b0 "
+b0 /
+0=
+0>
+0;
+0C
+0K
+0S
+b0 !
+b0 y
+b0 z
+0?
+0O
+0*
+0)
+b0 (
+b0 x
+b0 '
+b0 .
+b0 &
+b0 w
+b0 %
+b0 -
+#10
+1E
+1F
+b1010 "
+b1010 /
+1U
+1V
+b1010 !
+b1010 y
+b1010 z
+1?
+1O
+b1010 &
+b1010 w
+b1010 %
+b1010 -
+#15
+1C
+1S
+0?
+0O
+b1010 (
+b1010 x
+b1010 '
+b1010 .
+b0 &
+b0 w
+b0 %
+b0 -
+#20
+1$
+1t
+1r
+10
+1l
+1j
+11
+1d
+1b
+12
+1\
+1Z
+13
+1T
+1R
+0U
+0V
+14
+1L
+1J
+15
+1D
+1B
+0E
+0F
+16
+1<
+0M
+0N
+0]
+0^
+0e
+0f
+0m
+0n
+b0 "
+b0 /
+0u
+0v
+18
+1;
+0C
+0S
+1#
+b0 !
+b0 y
+b100000000 z
+17
+1?
+1G
+1O
+1W
+1_
+1g
+1o
+b1 (
+b1 x
+b1 '
+b1 .
+b11111111 &
+b11111111 w
+b11111111 %
+b11111111 -
+#25
+06
+0<
+05
+0D
+0E
+0F
+04
+0L
+0M
+0N
+03
+0T
+0U
+0V
+02
+0\
+0]
+0^
+01
+0d
+0e
+0f
+00
+0l
+0m
+0n
+0$
+0t
+0u
+0v
+08
+0B
+0J
+0R
+0Z
+0b
+0j
+0r
+b1 "
+b1 /
+1=
+1>
+0;
+0#
+b1 !
+b1 y
+b1 z
+07
+0?
+0G
+0O
+0W
+0_
+0g
+0o
+1*
+1)
+b0 (
+b0 x
+b0 '
+b0 .
+b0 &
+b0 w
+b0 %
+b0 -
+#30
